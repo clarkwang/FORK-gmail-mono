@@ -1,9 +1,17 @@
+/* vi:set ts=4 noet: */
+
+/*
+ * For viewing emails
+ */
 .a3s {
 	font-family: monospace !important;
 }
 
+/*
+ * It does not work well when joining lines together.
+ */
 .editable {
-	font-family: monospace !important;
-	max-width: 78ch;
+	/* font-family: monospace !important; */
+	/* max-width: 78ch; */
 	word-wrap: break-word;
 }
